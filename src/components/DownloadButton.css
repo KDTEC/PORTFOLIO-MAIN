@@ -1,0 +1,10 @@
+.download-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    background-color: #007bff; /* Change the background color as per your design */
+    color: #fff; /* Change the text color as per your design */
+    border-radius: 50%;
+    padding: 10px;
+  }
