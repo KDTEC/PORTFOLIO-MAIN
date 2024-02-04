@@ -252,6 +252,7 @@ const projects = [
     source_code_link: "https://github.com/KDTEC/Software-project",
   },
   
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

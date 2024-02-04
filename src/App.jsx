@@ -1,6 +1,8 @@
 import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, DownloadButton } from "./components";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const App = () => {
   return (
@@ -14,7 +16,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        {/* <Feedbacks /> */}
+        <Feedbacks />
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />

@@ -8,6 +8,8 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
+import Slider from "react-slick";
+
 const ProjectCard = ({
   index,
   name,
@@ -67,6 +69,31 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -82,10 +109,26 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      {/* <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+      </div> */}
+
+      <div className='mt-20'>
+        {projects.length > 3 ? (
+          <Slider {...sliderSettings}>
+            {projects.map((project, index) => (
+              <ProjectCard key={`project-${index}`} {...project} />
+            ))}
+          </Slider>
+        ) : (
+          <div className='flex flex-wrap gap-7'>
+            {projects.map((project, index) => (
+              <ProjectCard key={`project-${index}`} {...project} />
+            ))}
+          </div>
+        )}
       </div>
     </>
   );
