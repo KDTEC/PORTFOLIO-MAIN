@@ -79,6 +79,7 @@ const Feedbacks = () => {
             "🔹 <a href='https://link.springer.com/article/10.1007/s11042-023-14823-1'>Identification of traffic signs for advanced driving assistance systems in smart cities using deep learning</a>",
             "🔹 <a href='https://link.springer.com/chapter/10.1007/978-981-19-7874-6_3'>Estimating the Intervals Between Mount Etna Eruptions</a>",
             "🔹 <a href='https://ieeexplore.ieee.org/document/10403574'>A Novel Approach to Optimise Credit Risk Prediction with Enhanced SVM and Hinge Loss</a>",
+            "🔹 <a href='https://elcvia.cvc.uab.cat/article/view/1660'>Image-based mangifera indica leaf disease detection using transfer learning for deep learning methods</a>",
           ])}
         >
           Publications

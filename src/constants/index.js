@@ -24,6 +24,7 @@ import {
   Appointify,
   foodado,
   crypto_coinex,
+  repo_sniffer,
 } from "../assets";
 
 export const navLinks = [
@@ -188,6 +189,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "RepoSniffer",
+    description:
+      "Say goodbye to the hassle of cloning repositories. With RepoSniffer, save time, dive into code instantly without the need to clone.",
+    tags: [
+      {
+        name: "GraphQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React Query",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: repo_sniffer,
+    source_code_link: "https://repo-sniffer.netlify.app/",
+  },
   {
     name: "FooDado",
     description:

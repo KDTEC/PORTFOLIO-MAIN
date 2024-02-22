@@ -31,6 +31,7 @@ import Aster from "./company/Aster.png";
 import foodado from "./foodado.png";
 import Appointify from "./Appointify.png";
 import crypto_coinex from "./crypto_coinex.png";
+import repo_sniffer from "./repo_sniffer.png";
 
 import cv from './cv.png';
 
@@ -66,4 +67,5 @@ export {
   crypto_coinex,
   tap,
   cv,
+  repo_sniffer,
 };
