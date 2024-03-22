@@ -120,9 +120,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jun 2023 - Present",
     points: [
-      "Developed: and designed scalable, distributed, low latency, and high throughput e-pharmacy system APIs with continuous integration and deployment capabilities. Using K8s, Docker, Azure, Terraform, and Springboot.",
-      "Deployed: a total of 37 api solutions across the vertical, reduced cycle-time by 13%. Designed platform and service architecture using enterprise integration patterns. Using postman for API testing.",
-      "Optimized: legacy code implementations - accelerated software performance by 20%. Scaled products Typescript, React.js, Mongoose, Docker, K8s for horizontal scaling, and BitBucket for version control.",
+      "Employed Java alongside Springboot framework for backend microservices development and maintenance, utilizing RESTful APIs, Kafka, MongoDB, Postman, and Kibana for streamlined data processing and analysis.",
+      "Engineered and launched Aster Alerts microservice with 22 alerts, slashing response time for resolving business issues from 7 days to 1 day.",
+      "Resolved critical production issues impacting over 270K users, resulting in a 10% increase in new user registrations.",
+      "Designed and built a microservice leveragingKubernetes event monitoring to autonomously transfer MongoDB data between clusters, reducing migration time by 40% during cluster provisioning.",
+      "Spearheaded third‐party software integration for ”Labs on App” initiative, enabling real‐time data exchange for 15K+ daily transactions."
     ],
   },
   {
@@ -132,8 +134,8 @@ const experiences = [
     iconBg: "#fffff0",
     date: "Nov 2022 - Jun 2023",
     points: [
-      "Developed ERP systems for 5 clients using oracle RMC and SAP, enriching the existing system metrics by 19%.",
-      "Mitigated risk using role-based access controls (RBAC) and dealt with financial reporting compliance (FRC) for better control reporting according to SOX and other mandates.",
+      "Configured ERP systems for 5 clients using Oracle RMC and SAP, enhancing system metrics by 19%.",
+      "Implemented RBAC to reduce unauthorized access incidents by 30% and ensure compliance with financial reporting regulations like SOX, improving audit performance by 20%.",
     "Designed tableau and BI dashboards for visualizing client data.",
     ],
   },
@@ -144,8 +146,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Oct 2021 - Mar 2022",
     points: [
-      "Implemented a unified anomaly prediction tool with a precision of 95% for determining outliers in RAN KPI data.",
-      "Deployed and Integrated Continuous Integration/Deployment Pipeline (CI/CD), Reviewed Pull requests (PRs), Performed deep code reviews, Implemented load/stress testing, and unit/integration/e2e testing.",
+      "Forged an unified anomaly prediction tool with 95% precision for identifying outliers in RAN KPI data.",
+      "Orchestrated deployment and integration of CI/CD pipeline with Jenkins, boosting development efficiency and cutting deployment time by 30% with automated testing and deployment."
     ],
   },
   {
