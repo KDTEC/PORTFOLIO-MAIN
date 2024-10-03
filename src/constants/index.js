@@ -120,11 +120,14 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jun 2023 - Present",
     points: [
-      "Employed Java alongside Springboot framework for backend microservices development and maintenance, utilizing RESTful APIs, Kafka, MongoDB, Postman, and Kibana for streamlined data processing and analysis.",
-      "Engineered and launched Aster Alerts microservice with 22 alerts, slashing response time for resolving business issues from 7 days to 1 day.",
-      "Resolved critical production issues impacting over 270K users, resulting in a 10% increase in new user registrations.",
-      "Designed and built a microservice leveragingKubernetes event monitoring to autonomously transfer MongoDB data between clusters, reducing migration time by 40% during cluster provisioning.",
-      "Spearheaded third‐party software integration for ”Labs on App” initiative, enabling real‐time data exchange for 15K+ daily transactions."
+      "Managed CI/CD pipelines for web, Android, and iOS apps, building 50+ APKs and IPAs using Android SDK and Xcodebuild. Automated testing on Firebase and deployed to TestFlight and Play Store for seamless production releases.",
+      "Developed 20+ Python automation scripts in GCP Cloud Functions and AWS Lambda, reducing manual tasks by 70% and streamlining internal processes.",
+      "Installed and integrated Kong Gateway in Kubernetes clusters using Helm, supporting 100+ microservices and 5,000+ requests per second through local caching and PostgreSQL read replicas.",
+      "Engineered the Aster Alerts microservice with 22 alerts, reducing issue resolution time from 7 days to 1 day by integrating monitoring and logging.",
+      "Resolved critical production issues for 270K+ users, driving a 10% increase in user registrations.",
+      "Built a microservice using Kubernetes event monitoring to autonomously transfer MongoDB data, reducing migration time by 40% during cluster provisioning.",
+      "Deployed an automated OpenVPN solution for the tech team using Ansible for configuration and Terraform for infrastructure provisioning, currently used by over 250 employees across various environments for secure and scalable access.",
+      "Configured monitoring and alerting across Kubernetes clusters using the PLG (Prometheus, Loki, Grafana) stack, NewRelic, and Uptime Kuma for real-time observability and issue detection."
     ],
   },
   {
